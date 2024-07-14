@@ -1,0 +1,7 @@
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 "before all" hook for ":1 "universe" database should exist"
+
+Error: Cannot connect to psql
+error: database "universe" does not exist
+at Context.<anonymous> (test/1.1.test.js:14:13)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

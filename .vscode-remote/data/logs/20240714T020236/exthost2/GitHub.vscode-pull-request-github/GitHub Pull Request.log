@@ -1,0 +1,116 @@
+2024-07-14 03:38:49.085 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-07-14 03:38:49.085 [info] Activation> Extension version: 0.92.0
+2024-07-14 03:38:50.363 [info] Looking for git repository
+2024-07-14 03:38:50.363 [info] Found 0 repositories during activation
+2024-07-14 03:38:50.363 [info] Git repository found, initializing review manager and pr tree view.
+2024-07-14 03:38:50.367 [info] Registering git provider
+2024-07-14 03:38:50.367 [info] Review+0> Validate state in progress
+2024-07-14 03:38:50.367 [info] Review+0> Validating state...
+2024-07-14 03:38:50.462 [info] Found GitHub remote for folder /workspace/project
+2024-07-14 03:38:50.463 [info] Trying to use globalState for assignableUsers.
+2024-07-14 03:38:50.472 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-07-14 03:38:50.472 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-07-14 03:38:50.557 [info] GlobalState does not exist for assignableUsers.
+2024-07-14 03:39:06.006 [info] Repo state for file:///workspace/project changed.
+2024-07-14 03:39:06.006 [info] Repo file:///workspace/project has already been setup.
+2024-07-14 03:41:27.127 [info] Repository file:///workspace has been opened
+2024-07-14 03:41:27.127 [info] Review+1> Validate state in progress
+2024-07-14 03:41:27.127 [info] Review+1> Validating state...
+2024-07-14 03:41:27.128 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-07-14 03:41:27.128 [info] No GitHub remotes found for folder /workspace
+2024-07-14 03:41:27.128 [info] Trying to use globalState for assignableUsers.
+2024-07-14 03:41:27.176 [info] Review+1> Queuing additional validate state
+2024-07-14 03:41:27.176 [info] Repo state for file:///workspace changed.
+2024-07-14 03:41:27.176 [info] Repo file:///workspace has already been setup.
+2024-07-14 03:41:27.380 [info] GlobalState does not exist for assignableUsers.
+2024-07-14 03:41:27.732 [info] Review+1> Validating state...
+2024-07-14 03:41:27.732 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-07-14 03:41:27.732 [info] No GitHub remotes found for folder /workspace
+2024-07-14 03:41:27.733 [info] Using in-memory cached assignable users.
+2024-07-14 03:41:27.745 [info] Review+1> No matching pull request metadata found locally for current branch master
+2024-07-14 03:41:27.754 [info] Review+1> No matching pull request metadata found on GitHub for current branch master
+2024-07-14 03:41:34.802 [info] Review+1> Validate state in progress
+2024-07-14 03:41:34.802 [info] Review+1> Validating state...
+2024-07-14 03:41:34.803 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-07-14 03:41:34.803 [info] No GitHub remotes found for folder /workspace
+2024-07-14 03:41:34.803 [info] Using in-memory cached assignable users.
+2024-07-14 03:41:34.820 [info] Review+1> No matching pull request metadata found locally for current branch master
+2024-07-14 03:41:34.837 [info] Review+1> No matching pull request metadata found on GitHub for current branch master
+2024-07-14 03:49:38.651 [error] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+2024-07-14 03:49:38.651 [error] Error: 5 NOT_FOUND: no token available
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:271675)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:296882)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292767)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292212)
+	at /ide/extensions/gitpod-web/out/extension.js:2:376194
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at a.makeUnaryRequest (/ide/extensions/gitpod-web/out/extension.js:2:296423)
+	at a.getToken (/ide/extensions/gitpod-web/out/extension.js:2:361597)
+	at node:internal/util:442:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:428:12)
+	at A.getToken (/ide/extensions/gitpod-web/out/extension.js:2:1045235)
+	at c.loginGitHub (/ide/extensions/gitpod-web/out/extension.js:2:1402967)
+	at c.createSession (/ide/extensions/gitpod-web/out/extension.js:2:1403217)
+	at a.$createSession (/ide/out/vs/workbench/api/node/extensionHostProcess.js:152:59653)
+	at S (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at f.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:17638)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:16019)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:12248)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:11518)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:174:21438)
+2024-07-14 03:49:38.651 [error] Error signing in to GitHub: Error: 5 NOT_FOUND: no token available
+2024-07-14 03:49:38.651 [error] Error: 5 NOT_FOUND: no token available
+	at t.callErrorFromStatus (/ide/extensions/gitpod-web/out/extension.js:2:271675)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:296882)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292767)
+	at Object.onReceiveStatus (/ide/extensions/gitpod-web/out/extension.js:2:292212)
+	at /ide/extensions/gitpod-web/out/extension.js:2:376194
+	at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+	at a.makeUnaryRequest (/ide/extensions/gitpod-web/out/extension.js:2:296423)
+	at a.getToken (/ide/extensions/gitpod-web/out/extension.js:2:361597)
+	at node:internal/util:442:7
+	at new Promise (<anonymous>)
+	at bound  (node:internal/util:428:12)
+	at A.getToken (/ide/extensions/gitpod-web/out/extension.js:2:1045235)
+	at c.loginGitHub (/ide/extensions/gitpod-web/out/extension.js:2:1402967)
+	at c.createSession (/ide/extensions/gitpod-web/out/extension.js:2:1403217)
+	at a.$createSession (/ide/out/vs/workbench/api/node/extensionHostProcess.js:152:59653)
+	at S (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:5986)
+	at S.Q (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:5752)
+	at S.M (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:4778)
+	at S.L (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:177:8639)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:14502)
+	at f.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:17638)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:16019)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at m.acceptChunk (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:12248)
+	at n.value (/ide/out/vs/workbench/api/node/extensionHostProcess.js:108:11518)
+	at r.B (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at r.fire (/ide/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at o.z (/ide/out/vs/workbench/api/node/extensionHostProcess.js:174:21438)

@@ -1,0 +1,145 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 1 step 1.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Celestial Bodies Database (2.0.0)
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+CREATE ROLE
+
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+Test pass position: {"stepId":"1.1","levelId":"1","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"1.1","levelId":"1","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 1.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 1, step 1.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 1, step 1.1
+Commit saved: [main 787b653] Save progress: 1.1
+ 15 files changed, 775 insertions(+), 525 deletions(-)
+ mode change 100644 => 100755 .freeCodeCamp/.bashrc
+ mode change 100644 => 100755 .freeCodeCamp/.psqlrc
+ mode change 100644 => 100755 .freeCodeCamp/package-lock.json
+ mode change 100644 => 100755 .freeCodeCamp/package.json
+ mode change 100644 => 100755 .freeCodeCamp/pg_hba.conf
+ mode change 100644 => 100755 .freeCodeCamp/test/.cwd
+ mode change 100644 => 100755 .freeCodeCamp/test/.next_command
+ mode change 100644 => 100755 .freeCodeCamp/test/1.1.test.js
+ mode change 100644 => 100755 .gitignore
+ mode change 100644 => 100755 .gitpod.yml
+ mode change 100644 => 100755 .vscode/settings.json
+ delete mode 100644 CHANGELOG.md
+ delete mode 100644 TUTORIAL.md
+ delete mode 100644 coderoad.yaml
+ delete mode 100644 tutorial.json
+
+EDITOR_SYNC_POSITION
+EDITOR_TUTORIAL_COMPLETE
+STATE: "Tutorial.Completed"
+ROUTE: "Tutorial.Completed": Completed level 1, step 1.1
+Called webhook endpoint https://api.freecodecamp.org/coderoad-challenge-completed with body "{\"tutorialId\":\"freeCodeCamp/learn-celestial-bodies-database:v1.0.0\"}"
+EDITOR_REQUEST_WORKSPACE
+STATE: "Tutorial.Completed"
+ROUTE: "Tutorial.Completed": Completed level 1, step 1.1

@@ -1,0 +1,4 @@
+{
+  "redhat.telemetry.enabled": true,
+  "gitpod.openInStable.neverPrompt": true
+}

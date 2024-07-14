@@ -1,0 +1,59 @@
+2024-07-12 20:56:46.120 [info] Log level: Info
+2024-07-12 20:56:46.120 [info] Validating found git in: "git"
+2024-07-12 20:56:46.120 [info] Using git "2.43.0" from "git"
+2024-07-12 20:56:46.120 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-12 20:56:46.120 [info] > git rev-parse --git-dir --git-common-dir [35ms]
+2024-07-12 20:56:46.120 [info] Open repository: /workspace/project
+2024-07-12 20:56:46.120 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-12 20:56:46.120 [info] > git config --get commit.template [10ms]
+2024-07-12 20:56:46.120 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-12 20:56:46.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2024-07-12 20:56:46.120 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-07-12 20:56:46.120 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-07-12 20:56:46.321 [info] > git status -z -uall [204ms]
+2024-07-12 20:56:46.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [87ms]
+2024-07-12 20:56:46.447 [info] > git config --local branch.main.vscode-merge-base [11ms]
+2024-07-12 20:56:46.454 [info] > git config --get commit.template [36ms]
+2024-07-12 20:56:46.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2024-07-12 20:56:46.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-07-12 20:56:46.483 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-07-12 20:56:46.484 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2024-07-12 20:56:46.525 [info] > git rev-parse refs/remotes/origin/main [41ms]
+2024-07-12 20:56:46.532 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [9ms]
+2024-07-12 20:56:46.539 [info] > git status -z -uall [8ms]
+2024-07-12 20:56:46.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-12 20:56:46.558 [info] > git diff --name-status -z --diff-filter=ADMR ebef6c6b5a5bd079e5abd81c2740b1261740ce15...refs/remotes/origin/main [20ms]
+2024-07-12 20:56:46.560 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-07-12 20:56:46.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-07-12 20:56:47.592 [info] > git config --get commit.template [7ms]
+2024-07-12 20:56:47.595 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-07-12 20:56:47.601 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-07-12 20:56:47.604 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-12 20:56:47.613 [info] > git status -z -uall [4ms]
+2024-07-12 20:56:47.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-12 20:56:47.632 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-12 20:56:47.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2024-07-12 20:56:47.963 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-07-12 20:56:47.963 [warning] git config failed: Failed to execute git
+2024-07-12 20:57:02.621 [info] > git config --get commit.template [7ms]
+2024-07-12 20:57:02.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-07-12 20:57:02.631 [warning] ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2024-07-12 20:57:02.634 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-07-12 20:57:02.642 [info] > git status -z -uall [3ms]
+2024-07-12 20:57:02.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-12 20:57:02.661 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-12 20:57:02.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-07-12 21:01:47.877 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-12 21:01:47.878 [warning] git config failed: Failed to execute git
+2024-07-12 21:06:47.885 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-12 21:06:47.885 [warning] git config failed: Failed to execute git
+2024-07-12 21:11:47.894 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-12 21:11:47.894 [warning] git config failed: Failed to execute git
+2024-07-12 21:16:47.902 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-12 21:16:47.902 [warning] git config failed: Failed to execute git
+2024-07-12 21:21:47.911 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-07-12 21:21:47.911 [warning] git config failed: Failed to execute git
+2024-07-12 21:26:47.920 [info] > git config --local branch.main.github-pr-owner-number [1ms]
+2024-07-12 21:26:47.920 [warning] git config failed: Failed to execute git
+2024-07-12 21:31:47.933 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-07-12 21:31:47.934 [warning] git config failed: Failed to execute git

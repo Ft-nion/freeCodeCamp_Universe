@@ -1,0 +1,18 @@
+2024-07-13 22:59:18.051 [info] 
+
+
+
+
+2024-07-13 22:59:18.074 [info] Extension host agent started.
+2024-07-13 22:59:18.128 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2024-07-13 22:59:18.129 [info] Extension 'github.vscode-pull-request-github' v0.92.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2024-07-13 22:59:18.129 [info] Installing extensions...
+2024-07-13 22:59:18.160 [info] Extension 'coderoad.coderoad' v0.19.4 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'coderoad.coderoad@1.2.3'.
+2024-07-13 22:59:20.518 [info] [192.168.44.9][c77027a2][ManagementConnection] New connection established.
+2024-07-13 22:59:20.740 [info] [192.168.219.139][a56862c8][ExtensionHostConnection] New connection established.
+2024-07-13 22:59:20.847 [info] [192.168.219.139][a56862c8][ExtensionHostConnection] <399> Launched Extension Host Process.
+2024-07-13 23:13:13.773 [info] [192.168.219.139][a56862c8][ExtensionHostConnection] The client has reconnected.
+2024-07-13 23:13:14.420 [info] [192.168.44.9][c77027a2][ManagementConnection] The client has reconnected.
+2024-07-13 23:16:44.507 [info] [192.168.44.9][a56862c8][ExtensionHostConnection] The client has reconnected.
+2024-07-13 23:16:55.518 [info] [192.168.219.139][c77027a2][ManagementConnection] The client has reconnected.
+2024-07-13 23:18:11.914 [info] [192.168.219.139][c77027a2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

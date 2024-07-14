@@ -1,0 +1,67 @@
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 "before all" hook for ":1 "universe" database should exist"
+
+Error: Cannot connect to psql
+error: database "universe" does not exist
+at Context.<anonymous> (test/1.1.test.js:14:13)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :14 Each table should have at least three rows
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1.1.test.js:236:54)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :21 At least one column in each table should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at /workspace/project/.freeCodeCamp/test/1.1.test.js:330:22
+at Array.forEach (<anonymous>)
+at Context.<anonymous> (test/1.1.test.js:325:20)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :14 Each table should have at least three rows
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1.1.test.js:236:54)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+  ✘ SUBTASKS 1.1 :21 At least one column in each table should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at /workspace/project/.freeCodeCamp/test/1.1.test.js:330:22
+at Array.forEach (<anonymous>)
+at Context.<anonymous> (test/1.1.test.js:325:20)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :21 At least one column in each table should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at /workspace/project/.freeCodeCamp/test/1.1.test.js:330:22
+at Array.forEach (<anonymous>)
+at Context.<anonymous> (test/1.1.test.js:325:20)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ SUBTASKS 1.1 :21 At least one column in each table should have the "UNIQUE" constraint
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at /workspace/project/.freeCodeCamp/test/1.1.test.js:330:22
+at Array.forEach (<anonymous>)
+at Context.<anonymous> (test/1.1.test.js:325:20)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

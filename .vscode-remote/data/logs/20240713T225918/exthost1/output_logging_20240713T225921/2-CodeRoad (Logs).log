@@ -1,0 +1,42 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 1 step 1.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Celestial Bodies Database (2.0.0)
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+EDITOR_RUN_TEST
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 1, step 1.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Calling command: git log -n 1 --pretty=format:%s 5fb8493694c4dccc55fc5acee35da474803006c2
+Calling command: git log -g --grep='1.1'
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 1, step 1.1
+---------------- TEST RESULTS -----------------
+client connection ended
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
+Command output:  * Stopping PostgreSQL 12 database server
+   ...done.
+ * Starting PostgreSQL 12 database server
+   ...done.
+CREATE ROLE
+
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 1, step 1.1
